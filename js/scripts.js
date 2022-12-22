@@ -16,8 +16,8 @@ submit.addEventListener('click',
             alert('Attenzione! Dati inseriti non corretti')
             location.reload();
         }
-        else if (user_input > 10000) {
-            alert('Attenzione! Il numero massimo consentito di celle è 10.000')
+        else if (user_input > 100) {
+            alert('Attenzione! Il numero massimo consentito di celle è 100')
             location.reload();
         }
         else {
