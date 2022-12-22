@@ -9,9 +9,24 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div>
-        <h1>FizzBuzzDOM</h1>
-    </div>
+    <header>
+        <div>
+            <h1>FizzBuzzDOM</h1>
+        </div>
+
+        <div>
+            <label for="number_cell">Inserisci il numero di caselle da generare</label>
+
+            <input id="number_cell" type="text" placeholder=" Numero caselle (max 100)" max="100">
+
+            <button id="submit" type="submit">Crea Celle</button>
+            <button id="refresh">Aggiorna</button>
+        </div>
+    </header>
+
+    <main id="page">
+
+    </main>
 
     <script type="text/javascript" src="js/scripts.js"></script>
 </body>
