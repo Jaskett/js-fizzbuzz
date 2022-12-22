@@ -3,3 +3,97 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --primary-color: black;
+    --secondary-color: white;
+}
+
+body {
+    background-color: lightblue;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 20px 0;
+}
+
+label {
+    display: block;
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+input {
+    display: block;
+    width: 250px;
+    height: 30px;
+    border-radius: 25px;
+    border: 2px solid var(--primary-color);
+    margin: auto;
+    padding-left: 35px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+button:last-child {
+    color: lightcoral;
+}
+
+.show {
+    display: block !important;
+}
+
+#page {
+    display: none;
+    width: 70%;
+    margin: 30px auto;
+    padding: 30px;
+    border: 2px solid gray;
+    background-size: 240% 240%;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--primary-color);
+    background-color: lightcyan;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px 10px 0 ;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 84px;
+}
+
+.fizz {
+    background-color: lightgreen;
+    color: var(--primary-color);
+}
+
+.buzz {
+    background-color: lightgoldenrodyellow;
+    color: var(--primary-color);
+    animation: pulse 0.7s linear infinite;
+}
+
+.fizzbuzz {
+    background-color: lightsalmon;
+    color: var(--primary-color);
+}
